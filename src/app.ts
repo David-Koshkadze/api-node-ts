@@ -7,10 +7,6 @@ import routes from "./routes";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
-
 const PORT = config.get<number>("port");
 
 app.listen(PORT, async () => {
