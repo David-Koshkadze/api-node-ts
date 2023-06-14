@@ -14,3 +14,5 @@ const validate =
       return res.status(400).send(e.errors);
     }
   };
+
+export default validate;
